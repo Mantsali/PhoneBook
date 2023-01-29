@@ -1,0 +1,32 @@
+header{
+    background-color: #3581fb;
+    width: 100vw;
+}
+.header{
+  
+    padding: 15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--brand{
+    font-size: 28px;
+    font-weight: bold;
+    color: #c9c9c9;
+    cursor: pointer;
+}
+
+
+.header--links{
+    display: flex;
+    justify-content: start;
+}
+
+.header--link{
+    padding-left: 10px;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: 0.2rem;
+}
