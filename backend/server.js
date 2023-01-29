@@ -5,6 +5,9 @@ const app = express();
 
 const PORT = process.env.PORT || 5000;
 const contactRoutes = require('./routes/contactRoutes')
+const dbConnection = require('./config/dbconfig')
+
+dbConnection();
 
 //middleware so the server can parse json data
 app.use(express.json())
